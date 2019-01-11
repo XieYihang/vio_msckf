@@ -1,0 +1,4 @@
+<launch>
+    <node name="image_processor" pkg="image_processor" type="image_processor_node"/>
+    <node name="log_rviz" pkg="rviz" type="rviz" output="log" args="../config/log_rviz_config.rviz"/>
+</launch>
